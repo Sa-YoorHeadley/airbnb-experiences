@@ -1,12 +1,11 @@
 *, *::before, *::after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 #root {
-  height: 2500px;
+  height: 100%;
 }
 
 .App {
@@ -18,10 +17,9 @@
   top: 0;
   left: 0;
   padding: 1.375em 1.875rem;
-  background-color: #fafafa;
+  background-color: rgb(250, 250, 250);
   width: 100%;
-  -webkit-box-shadow: 0px 3px 7.5px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 3px 7.5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 3px 7.5px rgba(0, 0, 0, 0.1);
   z-index: 1;
 }
 
@@ -29,52 +27,34 @@
   margin: 0 auto;
   margin-top: 8rem;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 2rem;
 }
-
 .hero .hero-image {
   width: 25rem;
   height: 14.5rem;
 }
-
 .hero .hero-title, .hero .hero-subtitle {
   width: 25rem;
   text-align: left;
   font-weight: 600;
-  margin-left: .25rem;
-  -ms-flex-item-align: start;
-      align-self: flex-start;
-  margin-block: .5rem;
+  margin-left: 0.25rem;
+  align-self: flex-start;
+  margin-block: 0.5rem;
 }
-
 .hero .hero-subtitle {
   font-weight: 300;
   color: #222;
 }
 
 .card-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-flex: 0;
-      -ms-flex-positive: 0;
-          flex-grow: 0;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-  overflow-x: scroll;
+  flex-grow: 0;
+  flex-shrink: 0;
+  overflow-x: hidden;
 }
 
 .card {
@@ -82,50 +62,36 @@
   position: relative;
   max-width: 180px;
   height: 350px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  font-size: .75rem;
+  flex: 0 0 auto;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: 0.75rem;
   font-weight: 300;
   color: #222;
 }
-
 .card .card-image {
-  border-radius: .25rem;
-  margin-bottom: .35rem;
+  border-radius: 0.25rem;
+  margin-bottom: 0.35rem;
 }
-
 .card .card-title {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-
 .card .badge {
   position: absolute;
-  top: .5rem;
-  left: .5rem;
-  border-radius: .25em;
+  top: 0.5rem;
+  left: 0.5rem;
+  border-radius: 0.25em;
   background-color: #e5e5e5;
-  padding: .3em .5em;
+  padding: 0.3em 0.5em;
   max-width: 4rem;
   text-transform: uppercase;
   font-weight: 400;
-  font-size: .75em;
+  font-size: 0.75em;
   text-align: center;
   color: #222;
 }
-
 .card span {
   color: #918e9b;
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
