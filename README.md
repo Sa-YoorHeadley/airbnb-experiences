@@ -40,8 +40,15 @@ This is my solution to the Airbnb Experiences project on Scrimba.
 <br />
 
 <!-- Screenshot -->
+
+### Desktop
 <div align="center"> 
-  <img src="https://github.com/Sa-YoorHeadley/airbnb-experiences/blob/main/assets/Preview.PNG" alt="screenshot" />
+  <img src="https://github.com/Sa-YoorHeadley/airbnb-experiences/blob/main/assets/Preview-Desktop.PNG" alt="screenshot" />
+</div>
+
+### Mobile
+<div align="center"> 
+  <img src="https://github.com/Sa-YoorHeadley/airbnb-experiences/blob/main/assets/Preview-Mobile.PNG" alt="screenshot" />
 </div>
 
 <br />
